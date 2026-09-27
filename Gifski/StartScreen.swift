@@ -8,7 +8,7 @@ struct StartScreen: View {
 			if appState.isOpeningVideo {
 				ProgressView("Opening Video…")
 			} else {
-				Text("Andy says, drop yer video here!")
+				Text("Andy says, REALLY drop yer video here!")
 					.fontWeight(.medium)
 				Text("or")
 					.font(.system(size: 10))
